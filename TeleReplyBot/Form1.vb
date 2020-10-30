@@ -237,6 +237,7 @@ Public Class Form1
     Private Sub Timer_reconnect_Tick(sender As Object, e As EventArgs) Handles Timer_reconnect.Tick
         Timer_reconnect.Stop()
         start_BOT()
+        '
     End Sub
 
     Private Sub ListBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox.SelectedIndexChanged
