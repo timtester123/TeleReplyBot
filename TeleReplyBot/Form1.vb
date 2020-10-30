@@ -231,11 +231,15 @@ Public Class Form1
                 log("StartCommand found: " & line)
             End If
         Next
-
+        '
     End Sub
 
     Private Sub Timer_reconnect_Tick(sender As Object, e As EventArgs) Handles Timer_reconnect.Tick
         Timer_reconnect.Stop()
         start_BOT()
+    End Sub
+
+    Private Sub ListBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox.SelectedIndexChanged
+
     End Sub
 End Class

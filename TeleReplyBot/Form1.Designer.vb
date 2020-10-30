@@ -28,6 +28,9 @@ Partial Class Form1
         Me.ListBox = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
+        'Timer_reconnect
+        '
+        '
         'ListBox
         '
         Me.ListBox.Dock = System.Windows.Forms.DockStyle.Fill
